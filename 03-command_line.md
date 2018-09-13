@@ -52,17 +52,17 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-```
-ls -lh lists content in the working directory, and displays its files size in long format
 
-ls -p displays directories with /, which is helpful to differentiate directories from files
+`ls -lh` lists content in the working directory, and displays its files size in long format
 
-ls -la displays all files, including hidden files, in long format
+`ls -p` displays directories with /, which is helpful to differentiate directories from files
 
-ls -1 displays each entry on a line
+`ls -la` displays all files, including hidden files, in long format
 
-ls -i displays the inode for each file
-```
+`ls -1` displays each entry on a line
+
+`ls -i` displays the inode for each file
+
 
 ---
 
@@ -71,9 +71,8 @@ ls -i displays the inode for each file
 What does `xargs` do? Give an example of how to use it.
 
 ```
-`xargs` reads data from input and executes it.
-`echo` is the default command executed by `xargs`
-
-for example, we can use the following command to find txt files:
-`xargs find -name "*.txt"`
+xargs reads data from input and executes it.  
+echo is the default command executed by xargs  
+for example, we can use the following command to find txt files:  
+xargs find -name "*.txt"
 ```
