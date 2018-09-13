@@ -59,6 +59,8 @@ I have tried both before and maintain both for a matter of convenience.
 In the Terminal:
 
 `python3 --version`
+
+
 Python 2.7.14 :: Anaconda, Inc.\\\
 
 
