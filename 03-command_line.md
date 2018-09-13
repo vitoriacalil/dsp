@@ -43,7 +43,14 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+```
+**ls -lh** lists content in the working directory, and displays its files size in long format
+**ls -p**
+**ls -la**
+**ls -1**
+**ls -S**
+**ls -1**
+```
 
 ---
 
@@ -51,7 +58,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+```markdown
+`xargs` reads data from input and executes it.
+`echo` is the default command executed by `xargs`
 
- 
-
+for example, we can use the following command to find txt files:
+`xargs find -name "*.txt"`
+```
