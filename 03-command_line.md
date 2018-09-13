@@ -20,48 +20,32 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-**pwd** show current working directory path
-`mkdir` creating a directory
-`rm -r` deleting a directory
+**pwd** show current working directory path  
+**mkdir** creating a directory  
+**rm -r** deleting a directory  
+**rm** deleting a file  
+**mv oldname newname** renaming a file  
+**ls -a** listing hidden files  
+**cp filename destination** copying a file from one directory to another  
+**cd** change directory  
+**echo** you can write a file for example - echo 'Hello' > hello.txt  
+**cat file1.txt > file2.txt** redirect the standard output from one file to another  
+**cat file1 file2 file3 > file4** will concatenate content from files 1, 2 and 3, and redirect to file 4  
 * creating a file using `touch` command
-`rm` deleting a file
-`mv oldname newname` renaming a file
-`ls -a` listing hidden files
-`cp filename destination` copying a file from one directory to another
-`cd` change directory
-`echo` you can write a file for example - echo 'Hello' > hello.txt
-`cat file1.txt > file2.txt` redirect the standard output from one file to another
-`cat file1 file2 file3 > file4` will concatenate content from files 1, 2 and 3, and redirect to file 4
-
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`  lists the files and folders inside the folder you are in  
+`ls -a`  lists all files and folders in the working directory, including hidden files (hidden files starts with a .)  
+`ls -l`  lists all content in the working directory in long format  
+`ls -lh`  lists content in the working directory, and displays its files size in long format  
+`ls -lah`  lists content in the working directory, and displays its files size in long format, including hidden files information  
+`ls -t`  order files in the directory by the time they were last modified  
+`ls -Glp`  lists content in the working directory in long format, don't print group name  
 
-```
-`ls` lists the files and folders inside the folder you are in
-
-`ls -a`  lists all files and folders in the working directory, including hidden files (hidden files starts with a .)
-
-`ls -l`  lists all content in the working directory in long format
-
-`ls -lh` lists content in the working directory, and displays its files size in long format
-
-`ls -lah`  lists content in the working directory, and displays its files size in long format, including hidden files information
-
-`ls -t` order files in the directory by the time they were last modified
-
-`ls -Glp` lists content in the working directory in long format, don't print group name
-```
 ---
 
 ### Q3.  More List Files in Unix  
