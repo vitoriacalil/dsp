@@ -28,6 +28,6 @@ first_wgt.mean(), others_wgt.mean()
 CohenEffectSize(first_wgt, other_wgt)  
 -0.088672927072602  
 ```
-We can see that first babies are likely to be lighter than others, but the difference is not relevant  
-Cohen's d of 0.089 represents that 54% of the 'others' babies are above the firsts babies weight mean  
+We can see that first babies are likely to be lighter than others, but the difference is not relevant;  
+Cohen's d of 0.089 represents that 54% of the 'others' babies are above the firsts babies weight mean;   
 Comparing to the difference in pregnancy length (Cohen's d of 0.029), neither values are relevant, concluding that being the first baby does not pose any effect to the child.  
